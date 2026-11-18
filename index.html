@@ -642,6 +642,14 @@ header.split-site-header * {
 }
 </style>
 
+
+<style id="restored-black-gradient-hero">
+.hero{position:relative!important;min-height:610px!important;height:min(740px,calc(100svh - 93px))!important;overflow:hidden!important;background:#000!important}
+.hero-image{position:absolute!important;inset:0!important;background-image:url('https://raw.githubusercontent.com/carrington-rblx/commonground.org/main/image%20(30).png')!important;background-size:cover!important;background-position:center 35%!important}
+.hero:after{content:""!important;position:absolute!important;inset:0!important;pointer-events:none!important;background:linear-gradient(90deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.78) 42%,rgba(0,0,0,.34) 72%,rgba(0,0,0,.12) 100%),linear-gradient(0deg,rgba(0,0,0,.24),rgba(0,0,0,.08))!important}
+@media(max-width:760px){.hero{min-height:520px!important;height:70svh!important}.hero-image{background-position:center center!important}}
+</style>
+
 </head>
 <body>
 <header class="split-site-header">
@@ -653,6 +661,8 @@ header.split-site-header * {
 </div>
 </header>
 <main id="home">
+<section class="hero" aria-label="Campaign hero"><div class="hero-image" role="img" aria-label="Campaign background image"></div></section>
+
 
 <section class="intro" id="about"><a class="support-tile" href="https://discord.gg/9B9HCPXgNg" target="_blank" rel="noopener noreferrer"><strong>Support AmentAmour's campaign</strong></a><div class="intro-copy"><span class="eyebrow">Leadership that listens</span><h2>To the People.</h2><p>AmentAmour's campaign puts strong leadership and strategic solutions at the center of his service to the people. Ament focused on strong diplomacy and making public institutions work for the people they serve.</p><p></p><a class="outline-link" href="about-ament.html">Learn more →</a></div></section>
 <section class="campaign-statement" aria-label="Campaign statement">Saving America From<br>It&#39;s Failure.</section>
